@@ -1,20 +1,20 @@
 main {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 2rem 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 2rem 0;
 }
 
 figure {
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  text-align: center;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	text-align: center;
 
-  & figcaption {
-    font-size: 3rem;
-    padding: 1rem;
-  }
+	& figcaption {
+		font-size: 3rem;
+		padding: 1rem;
+	}
 
-  & img {
-    height: 400px;
-  }
+	& img {
+		height: 400px;
+	}
 }

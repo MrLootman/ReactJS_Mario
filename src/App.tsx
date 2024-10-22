@@ -1,19 +1,25 @@
-import Header from "./components/Header"
-import Card from "./components/Card"
+import Card from "./components/Card";
+import Header from "./components/Header";
 
-import "./assets/styles/App.css"
+import "./assets/styles/App.css";
 
 function App() {
-  return (
-    <>
-      <Header />
-      <main>
-        <Card character="Mario" />
-        <Card />
-        <Card />
-      </main>
-    </>
-  )
+
+	const myName = {
+		firstname: "Nicolas",
+		lastname: "MICHEL"
+	}
+
+	return (
+		<>
+			<Header />
+			<main>
+				<Card character={myName} />
+				<Card />
+				<Card />
+			</main>
+		</>
+	);
 }
 
-export default App
+export default App;

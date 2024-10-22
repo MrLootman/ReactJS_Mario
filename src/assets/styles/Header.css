@@ -1,17 +1,17 @@
 header {
-  height: 120px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 8px;
+	height: 120px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 8px;
 
-  & img {
-    height: 150px;
-  }
+	& img {
+		height: 150px;
+	}
 }
 
 header nav a {
-  margin: 0 1rem;
-  font-weight: 600;
-  font-size: 1.6rem;
+	margin: 0 1rem;
+	font-weight: 600;
+	font-size: 1.6rem;
 }
