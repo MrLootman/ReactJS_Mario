@@ -2,4 +2,24 @@
 
 body {
 	font-family: "Agdasima", sans-serif;
+	animation: introduce 20s;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(10, 10, 10);
+}
+
+@keyframes introduce {
+	0% {
+		overflow: hidden;
+	}
+
+	99% {
+		overflow: hidden;
+	}
+
+	100% {
+		overflow: visible;
+	}
 }
