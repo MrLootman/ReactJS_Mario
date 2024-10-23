@@ -1,0 +1,38 @@
+figure:nth-child(1) {
+    animation: slideleft 20s ease;
+}
+
+@keyframes slideleft {
+    0% {
+        transform: translateX(-100vw);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+figure:nth-child(2) {
+    animation: slideup 20s ease;
+}
+
+@keyframes slideup {
+    0% {
+        transform: translateY(100vh);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+figure:nth-child(3) {
+    animation: slideright 20s ease;
+}
+
+@keyframes slideright {
+    0% {
+        transform: translateX(100vw);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}

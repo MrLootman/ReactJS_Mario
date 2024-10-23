@@ -1,6 +1,6 @@
 import "../assets/styles/Card.css";
 
-function Card({ myName }) {
+function Card() {
 	return (
 		<figure>
 			<img

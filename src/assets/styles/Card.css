@@ -15,6 +15,8 @@ figure {
 	}
 
 	& img {
-		height: 400px;
+		height: 420px;
+		width: 380px;
+		object-fit: cover;
 	}
 }
