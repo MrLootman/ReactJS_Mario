@@ -1,11 +1,7 @@
-Mario :
+### Exercice sur les states
 
-https://media.istockphoto.com/id/458294725/fr/photo/super-mario.jpg?s=612x612&w=0&k=20&c=mZf-iNR-FvTV_u_Yih4Sy0LGG6oLsqWDV0ziKnFDNtU=
+Dans son état actuel, l'application comporte trois cartes, et chacunes d'elles comportent un bouton avec une pièce.
 
-Bowser :
+Tout l'exercice se passera dans le composant Card ! Pour l'heure, les boutons sont inactifs.
 
-https://mariopartylegacy.com/wp-content/uploads/2018/07/bowserprofile.png
-
-Peach :
-
-https://generation-nintendo.com/images/encyclopedie/54s7qi8a.png
+Tu vas devoir créer une variable d'état (un useState) pour pouvoir gérer la modification du compteur de chaque carte individuellement, et ainsi voir les chiffres incrémenter au gré des clics 😃

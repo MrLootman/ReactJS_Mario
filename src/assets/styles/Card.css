@@ -1,21 +1,28 @@
 main {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	padding: 2rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem 0;
 }
 
 figure {
-	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-	text-align: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  text-align: center;
+  width: 340px;
 
-	& figcaption {
-		font-size: 3rem;
-	}
+  & figcaption {
+    font-size: 3rem;
+  }
 
-	& img {
-		height: 420px;
-		width: 380px;
-		object-fit: cover;
-	}
+  & img {
+    height: 320px;
+    width: 300px;
+    object-fit: cover;
+  }
+
+  & button {
+    margin: 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+  }
 }

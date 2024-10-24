@@ -10,9 +10,10 @@ function Card({ firstname, imgSrc }: CardI) {
 		<figure>
 			<img
 				src={imgSrc}
-				alt={`Representation of ${firstname}`}
+				alt={`Representation of ${firstname}, a character of the Mario universe`}
 			/>
 			<figcaption>{firstname}</figcaption>
+			<button>0 🪙</button>
 		</figure>
 	);
 }
