@@ -1,25 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap");
 
 body {
-	font-family: "Agdasima", sans-serif;
-	animation: introduce 20s;
+  font-family: "Agdasima", sans-serif;
+  animation: introduction 20s;
 }
 
 a {
-	text-decoration: none;
-	color: rgb(10, 10, 10);
+  text-decoration: none;
+  color: rgb(10, 10, 10);
 }
 
-@keyframes introduce {
-	0% {
-		overflow: hidden;
-	}
+@keyframes introduction {
+  0% {
+    overflow: hidden;
+  }
 
-	99% {
-		overflow: hidden;
-	}
+  99% {
+    overflow: hidden;
+  }
 
-	100% {
-		overflow: visible;
-	}
+  100% {
+    overflow: visible;
+  }
 }
