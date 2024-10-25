@@ -23,3 +23,15 @@ a {
     overflow: visible;
   }
 }
+
+footer {
+  display: flex;
+  justify-content: center;
+
+  & input {
+    width: 400px;
+    height: 1.5rem;
+    font-size: 1.6rem;
+    font-family: "Agdasima", sans-serif;
+  }
+}

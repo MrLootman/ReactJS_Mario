@@ -29,7 +29,7 @@ figure {
 
 /* Animation of each Card */
 
-figure:nth-child(1) {
+/* figure:nth-child(1) {
   animation: slideleft 10s ease;
 }
 
@@ -66,4 +66,4 @@ figure:nth-child(3) {
   100% {
     transform: translateY(0);
   }
-}
+} */
