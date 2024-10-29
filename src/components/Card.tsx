@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "../assets/styles/Card.css";
 
 interface CardI {
@@ -6,6 +7,7 @@ interface CardI {
 }
 
 function Card({ firstname, imgSrc }: CardI) {
+	const [count, setCount] = useState<number>(0);
 	return (
 		<figure>
 			<img
@@ -13,7 +15,7 @@ function Card({ firstname, imgSrc }: CardI) {
 				alt={`Representation of ${firstname}, a character of the Mario universe`}
 			/>
 			<figcaption>{firstname}</figcaption>
-			<button>0 🪙</button>
+			<button onClick={() => setCount(count + 1)} type="button">{count} 🪙</button>
 		</figure>
 	);
 }
