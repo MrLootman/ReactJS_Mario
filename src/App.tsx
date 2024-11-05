@@ -2,8 +2,6 @@ import Card from "./components/Card";
 import Header from "./components/Header";
 
 import "./assets/styles/App.css"
-import { useRef, useState } from "react";
-import type { RefObject } from "react";
 
 const data = [
   {
@@ -26,30 +24,12 @@ const data = [
 ];
 
 function App() {
-  const [btnValue, setBtnValue] = useState('');
-
-  const goodRef = useRef(null);
-  const evilRef = useRef(null);
-
-  const handleFilter = (reference: RefObject<HTMLButtonElement>) => {
-    if (reference.current) {
-      setBtnValue(reference.current.textContent || "");
-    }
-  }
-
-  const filteredArr = btnValue ? data.filter(el => el.type === btnValue) : data;
-
   return (
     <>
       <Header />
 
-      <section id="btn-section">
-        <button type="button" ref={goodRef} onClick={() => handleFilter(goodRef)}>Good</button>
-        <button type="button" ref={evilRef} onClick={() => handleFilter(evilRef)}>Evil</button>
-      </section>
-
       <main>
-        {filteredArr.map((el) => {
+        {data.map((el) => {
           return (
             <Card key={el.firstname} firstname={el.firstname} imgSrc={el.imgSrc} />
           )
